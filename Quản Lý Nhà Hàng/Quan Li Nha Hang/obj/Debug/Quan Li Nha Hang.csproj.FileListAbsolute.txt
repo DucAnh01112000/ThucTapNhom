@@ -1,0 +1,12 @@
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\bin\Debug\Quan Li Nha Hang.exe.config
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\bin\Debug\Quan Li Nha Hang.exe
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\bin\Debug\Quan Li Nha Hang.pdb
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan_Li_Nha_Hang.Properties.Resources.resources
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan Li Nha Hang.csproj.GenerateResource.cache
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan Li Nha Hang.csproj.CoreCompileInputs.cache
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan Li Nha Hang.exe
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan Li Nha Hang.pdb
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan_Li_Nha_Hang.fMain.resources
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan_Li_Nha_Hang.Views.UcNhanVien.resources
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan_Li_Nha_Hang.Form2.resources
+E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan Li Nha Hang.csprojAssemblyReference.cache
