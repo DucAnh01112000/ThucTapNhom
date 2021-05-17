@@ -1,0 +1,2 @@
+﻿@model DbWebsite.type_products
+@Html.DropDownListFor(model => model.id, new SelectList(Model.CateCollection,"id", "name_typepr","--select--"))
