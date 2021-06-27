@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D874C999-27DB-4FFB-A518-2BC982B26A14}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QLKS_NHOM1</RootNamespace>
+    <AssemblyName>QLKS_NHOM1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\BillDAO.cs" />
+    <Compile Include="DAO\CustomerDAO.cs" />
+    <Compile Include="DAO\RomTypeDAO.cs" />
+    <Compile Include="DAO\RoomDAO.cs" />
+    <Compile Include="DAO\ServiceDAO.cs" />
+    <Compile Include="DataAccessLayer\DataProvider.cs" />
+    <Compile Include="GUI\fBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fBill.Designer.cs">
+      <DependentUpon>fBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fCustomer.Designer.cs">
+      <DependentUpon>fCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fLogin.Designer.cs">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fRegister.Designer.cs">
+      <DependentUpon>fRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fRoom.Designer.cs">
+      <DependentUpon>fRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fRoomType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fRoomType.Designer.cs">
+      <DependentUpon>fRoomType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fService.Designer.cs">
+      <DependentUpon>fService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fTutorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fTutorial.Designer.cs">
+      <DependentUpon>fTutorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BillInfo.cs" />
+    <Compile Include="Models\Service.cs" />
+    <Compile Include="Models\Bill.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\RoomType.cs" />
+    <Compile Include="Models\Room.cs" />
+    <Compile Include="Models\Account.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\fBill.resx">
+      <DependentUpon>fBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fCustomer.resx">
+      <DependentUpon>fCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fRegister.resx">
+      <DependentUpon>fRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fRoom.resx">
+      <DependentUpon>fRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fRoomType.resx">
+      <DependentUpon>fRoomType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fService.resx">
+      <DependentUpon>fService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fTutorial.resx">
+      <DependentUpon>fTutorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\Data.sql" />
+    <Content Include="Database\database.sql" />
+    <Content Include="Database\diagram.PNG" />
+    <Content Include="Database\StoreProcedure.sql" />
+    <Content Include="Img\Screenshot 2021-05-11 232430.png" />
+    <Content Include="Img\Screenshot 2021-05-11 232539.png" />
+    <Content Include="Img\Screenshot 2021-05-11 232620.png" />
+    <Content Include="Img\Screenshot 2021-05-11 232802.png" />
+    <Content Include="Img\Screenshot 2021-05-11 232856.png" />
+    <Content Include="Img\Screenshot 2021-05-11 232934.png" />
+    <Content Include="Img\Screenshot 2021-05-11 233053.png" />
+    <Content Include="Img\Screenshot 2021-05-11 233118.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

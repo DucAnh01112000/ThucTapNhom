@@ -10,3 +10,15 @@ E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj
 E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan_Li_Nha_Hang.Views.UcNhanVien.resources
 E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan_Li_Nha_Hang.Form2.resources
 E:\gui tep nhe\thực tập CSDL\Giao Dien\Quan Li Nha Hang\Quan Li Nha Hang\obj\Debug\Quan Li Nha Hang.csprojAssemblyReference.cache
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\bin\Debug\Quan Li Nha Hang.exe.config
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\bin\Debug\Quan Li Nha Hang.exe
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\bin\Debug\Quan Li Nha Hang.pdb
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\obj\Debug\Quan Li Nha Hang.csprojAssemblyReference.cache
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\obj\Debug\Quan_Li_Nha_Hang.fMain.resources
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\obj\Debug\Quan_Li_Nha_Hang.Form2.resources
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\obj\Debug\Quan_Li_Nha_Hang.Properties.Resources.resources
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\obj\Debug\Quan_Li_Nha_Hang.Views.UcNhanVien.resources
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\obj\Debug\Quan Li Nha Hang.csproj.GenerateResource.cache
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\obj\Debug\Quan Li Nha Hang.csproj.CoreCompileInputs.cache
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\obj\Debug\Quan Li Nha Hang.exe
+C:\Users\dell\OneDrive\Desktop\ThucTapNhom\Quản Lý Nhà Hàng\Quan Li Nha Hang\obj\Debug\Quan Li Nha Hang.pdb

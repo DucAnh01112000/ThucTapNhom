@@ -11,7 +11,7 @@ namespace Quan_Li_Nha_Hang.Models
 {
     class Connection
     {
-        public static string sqlcon = @"Data Source=MAYTINH-57UP0I4\SQLEXPRESS;Initial Catalog=QUANLYNHAHANG;Integrated Security=True";
+        public static string sqlcon = @"Data Source=DESKTOP-JSDDPI4\SQLEXPRESS;Initial Catalog=QUANLYNHAHANG;Integrated Security=True";
         public static SqlConnection Getconnection()
         {
             SqlConnection con = new SqlConnection(sqlcon);
